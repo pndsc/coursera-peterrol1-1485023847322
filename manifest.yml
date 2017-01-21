@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: coursera-peterrol1
+  host: coursera-peterrol1
+  disk_quota: 1024M
+  services:
+  - coursera-peterrol1-cloudantNoSQLDB
+  - coursera-peterrol1-iotf-service
